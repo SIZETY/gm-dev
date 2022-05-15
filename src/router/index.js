@@ -58,6 +58,11 @@ const routes = [
 		],
 	},
 	{
+		path: '/menu-drag',
+		name: 'menuDrag',
+		component: () => import('@/views/MenuDrag'),
+	},
+	{
 		path: '/:pathMatch(.*)*',
 		name: 'not-found',
 		component: () => import('@/views/not-found'),
