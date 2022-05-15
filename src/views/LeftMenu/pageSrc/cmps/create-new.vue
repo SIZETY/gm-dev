@@ -1,14 +1,12 @@
 <template>
-	<li>
-		<div>
-			<i></i>
-		</div>
-	</li>
+	<div>
+		<button>Create New</button>
+	</div>
 </template>
 
 <script>
 export default {
-	name: 'subMenu',
+	name: 'CreateNew',
 }
 </script>
 

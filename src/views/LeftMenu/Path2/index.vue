@@ -1,14 +1,12 @@
 <template>
-	<li>
-		<div>
-			<i></i>
-		</div>
-	</li>
+	<div>
+		<h2>path 2</h2>
+	</div>
 </template>
 
 <script>
 export default {
-	name: 'subMenu',
+	name: 'Path2',
 }
 </script>
 

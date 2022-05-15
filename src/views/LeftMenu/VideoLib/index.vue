@@ -1,14 +1,12 @@
 <template>
-	<li>
-		<div>
-			<i></i>
-		</div>
-	</li>
+	<div>
+		<h2>video lib</h2>
+	</div>
 </template>
 
 <script>
 export default {
-	name: 'subMenu',
+	name: 'VideoLib',
 }
 </script>
 

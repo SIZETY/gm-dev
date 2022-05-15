@@ -1,0 +1,113 @@
+.left-menu {
+	display: flex;
+	position: relative;
+}
+.hidden {
+	width: 180px;
+	height: 100vh;
+}
+.left {
+	width: 290px;
+	height: 100vh;
+	border-right: 1px solid #f5f5f5;
+	padding: 10px 20px;
+	background-color: #fff;
+}
+.menu-setting {
+	display: inline-block;
+	position: relative;
+}
+.menu-setting ul {
+	position: absolute;
+	top: 0;
+	background-color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	width: 80px;
+	border: 1px solid black;
+	display: none;
+}
+.menu-setting:hover ul {
+	display: block;
+}
+.margin {
+	margin: 0 90px;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #f5f5f5;
+}
+h2 i {
+	cursor: pointer;
+}
+.active {
+	background-color: #f1f1f1;
+}
+
+.left-menu-ft {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	width: 329px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.avatar-wrap {
+	position: relative;
+	padding: 4px 0;
+}
+.avatar {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.img {
+	width: 40px;
+	height: 50px;
+	background-color: green;
+}
+/* 账号弹窗 */
+.account-wrap {
+	position: absolute;
+	bottom: 38px;
+	border: 1px solid #f5f5f5;
+	padding: 20px 20px 0;
+	background-color: #fff;
+}
+.current-account {
+	display: flex;
+}
+.account-menu li {
+	padding: 13px 0;
+}
+.account-menu li.divide {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f5f5f5;
+}
+/* .item {
+  padding: 10px 0;
+} */
+.item:hover {
+	background-color: #f5f5f5;
+}
+.account-wrap {
+	display: none;
+}
+.avatar-wrap:hover .account-wrap {
+	display: block;
+}
+
+/* right */
+.right {
+	flex: 1;
+}
